@@ -3,7 +3,6 @@ from dblib.main import DataBase
 from diskusage import get_spaces
 import base64
 import sys
-
 class MyApp:
     def __init__(self, host: str, port: int) -> None:
         self._app = Flask(__name__)
